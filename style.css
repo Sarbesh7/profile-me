@@ -143,11 +143,12 @@ body {
 .myimage {
   position: relative;
   left: 50px;
-  width: 18rem;
+  width: 15rem;
   height: auto;
   object-fit: cover;
   border-radius: 11px;
   filter: drop-shadow(0px 5px 15px #000000);
+  margin-top: 50px;
 }
 .hero {
   margin-top: 10px;
@@ -259,7 +260,7 @@ body {
   height: 30rem;
   object-fit: cover;
   filter: drop-shadow(0px 5px 15px #000000);
-  border-radius: 15px;
+  border-radius: 50px;
   z-index: -2;
 }
 .ptag {
@@ -300,5 +301,39 @@ hr{
 
 .looter p {
   font-size: 0.9rem;
+  color: #777;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10px;
+  width: 100%;
+
+  
+
+}
+
+.social a {
+ 
+  color: #777;
+  text-decoration: none;
+}
+.imgfb{
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+.imgyt{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.imginsta{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.a6{
   color: #777;
 }
